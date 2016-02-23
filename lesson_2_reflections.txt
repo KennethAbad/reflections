@@ -19,6 +19,8 @@ Branches are useful when experimenting certain feautures that you don't want to 
 
 How do the diagrams help you visualize the branch structure?
 
+It helps you keep track of the branches you create and their reachability.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
