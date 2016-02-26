@@ -28,3 +28,5 @@ The two branches combine into one. Their commits are combined by the order of da
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Automatic merging is useful because it is convenient, however merging conflicts can occur. This is where merging manually comes in.
