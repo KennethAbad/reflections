@@ -7,3 +7,5 @@ Describe the differences between forks, clones, and branches. When would you use
 What is the benefit of having a copy of the last known state of the remote stored locally? If a collaborator were to cause an error in the latest push, You can restore it to the last known state before the code was pushed.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? You can collaborate by keeping a single project file. Updating the project would be easy if all collaborators were working on a single computer. However, updating the project might take longer if they were using seperate computers to collaborate, and an error will affect the master file since there are no branches to experiment with unless there was a copy kept separate.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have? You should make changes in a separate branch when there is a merge conflict in pull request on github. You can then merge and push from your local repository. Changing in master works too, but you may lose a commit or two in the process.
